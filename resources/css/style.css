@@ -1,0 +1,59 @@
+/* main header */
+
+
+.top-level{
+  display: block;
+  border: 1px solid blue;
+}
+
+.top-container{
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  border: px solid blue;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  border: 1px solid green;
+  color: MediumAquamarine;
+}
+
+.logo p{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+
+#list{
+  display: inline-flex;
+  width: auto;
+  margin: 0;
+  border: 1px solid red;
+}
+
+nav{
+  display: inline-flex;
+  flex: auto;
+  width: 100%;
+  margin: 0;
+}
+
+.list{
+  display:flex;
+  justify-content: center;
+}
+
+li{
+display: flex;
+width: 100%;
+margin-right: 10px;
+border: 1px solid black;
+}
